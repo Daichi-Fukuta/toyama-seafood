@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>local news</title>
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header class="header">
+        <div class="header__wrap">
+            <div class="header__cat">
+                <div class="header__logo">
+                    <a href="index.html">local news</a>
+                </div>
+                <nav class="header__navi">
+                    <ul class="header__navi__list">
+                        <li class="header__navi__item"><a href="#masuzushi"><span>Masuzushi</span></a></li>
+                        <li class="header__navi__item"><a href="#shiroebi"><span>Shiroebi</span></a></li>
+                        <li class="header__navi__item"><a href="#hotaruika"><span>Hotaruika</span></a></li>
+                        <li class="header__navi__item"><a href="#faq"><span>FAQ</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- メインヴィジュアル -->
+    <div class="main__visual all__wrap">
+        <div class="main__visual__text">
+            <h1>Toyama has a lot of delicious seafood</h1>
+            <p>When you see this page, you immediately contact your boss to retire and get a Shinkansen ticket.</p>
+            <p class="main__visual__sub__text">Toyama Prefecture is a prefecture located in the Chubu region of Japan. The prefectural capital and the largest city is Toyama City.</p>
+        </div>
+    </div>
+
+    <!-- メインコンテンツ -->
+    <main class="all__wrap">
+        <!-- 鱒寿司 -->
+        <section class="main__contents">
+            <h1 class="main__contents__title">Toyama seafood</h1>
+            <article class="main__contents__wrapper" id="masuzushi">
+                <div class="main__contents__img">
+                    <img src="./images/image_1.png" alt="鱒寿司の写真" title="富山名物の鱒寿司">
+                </div>
+                <div class="main__contents__description">
+                    <h2 class="main__contents__title">Masuzushi - 鱒寿司 -</h2>
+                    <p class="main__contents__text">
+                        Masuzushi is a local dish of Toyama prefecture.
+                        A type of pressed sushi that is seasoned with vinegar without being fermented with trout.
+                        The best harmony that vinegared rice tightens the fat-rich trout.
+                        The supreme dish you definitely want to eat if you come to Toyama.
+                    </p>
+                </div>
+            </article>
+            <!-- 白えび -->
+            <article class="main__contents__wrapper shiroebi__order" id="shiroebi">
+                <div class="main__contents__description">
+                    <h2 class="main__contents__title">Shiroebi - 白えび -</h2>
+                    <p class="main__contents__text">
+                        Shiroebi is an endemic species that inhabits only the deep sea along the coast of Japan, and Toyama Bay on the Sea of Japan side is the only fishing ground.
+                        It is characterized by its moist body and the unique flavor of Shiroebi that cannot be expressed in words.
+                    </p>
+                </div>
+                <div class="main__contents__img">
+                    <img src="./images/image_2.png" alt="白えびの写真" title="富山名物の白えび">
+                </div>
+            </article>
+            <!-- ホタルイカ -->
+            <article class="main__contents__wrapper" id="hotaruika">
+                <div class="main__contents__img">
+                    <img src="./images/image_3.png" alt="ほたるいかの写真" title="富山名物のほたるいか">
+                </div>
+                <div class="main__contents__description">
+                    <h2 class="main__contents__title">Hotaruika - ほたるいか -</h2>
+                    <p class="main__contents__text">
+                        Firefly squid is a mysterious creature surrounded by many mysteries whose whole body glows pale.
+                        I was born in spring and will end my life in a year. I usually live in deep water of 200-600m.
+                        Its taste goes well with alcohol and is often described as "devilish(悪魔的)".
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- 富山湾説明 -->
+    <section>
+        <div class="explanation all__wrap">
+            <div class="explanation__bg">
+                <div class="explanation__text">
+                    <h3 class="explanation__title">Why is seafood delicious in Toyama?</h3>
+                    <p class="explanation__sentence">
+                        Fish in Toyama Bay that have overcome the complex tides of the Sea of Japan and intense waves. 
+                        It is moderately trained, firm and moderately greasy.
+                        Toyama Bay is layered with the warm Tsushima Current and cold deep sea water with a water 
+                        temperature of 1 to 2 degrees Celsius throughout the year. 
+                        There are abundant plankton that feed the fish, and delicious fish grow.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section>
+        <div class="faq all__wrap" id="faq">
+            <h4 class="faq__title">FAQ</h4>
+            <div class="faq__contents">
+                <input class="faq__checkbox" type="checkbox" id="faqCheckBox01">
+                <label class="faq__label" for="faqCheckBox01">
+                    Q.Where can I eat Masuzushi?
+                    <i class="fas fa-angle-down fa-lg"></i>
+                    <i class="fas fa-angle-up fa-lg"></i>
+                </label>
+                <div class="faq__accordion">
+                    <p class="faq__answer">
+                        A.If you come to Toyama,<a href="https://tabelog.com/toyama/A1602/A160202/16003358/" target="_blank">this shop</a> is recommended.(Location: Uozu City)
+                    </p>
+                </div>
+                <input class="faq__checkbox" type="checkbox" id="faqCheckBox02">
+                <label class="faq__label" for="faqCheckBox02">
+                    Q.How do you eat Shiroebi?
+                    <i class="fas fa-angle-down fa-lg"></i>
+                    <i class="fas fa-angle-up fa-lg"></i>
+                </label>
+                <div class="faq__accordion">
+                    <p class="faq__answer">
+                        A.There are many ways to eat Shiroebi. that is<br>
+                        ・ Fried<br>
+                        ・'Sashimi'<br>
+                        ・'Don'<br>
+                        In Toyama, there is also a Shiroebi burger.
+                    </p>
+                </div>
+                <input class="faq__checkbox" type="checkbox" id="faqCheckBox03">
+                <label class="faq__label" for="faqCheckBox03">
+                    Q.Where can I eat Shiroebi?
+                    <i class="fas fa-angle-down fa-lg"></i>
+                    <i class="fas fa-angle-up fa-lg"></i>
+                </label>
+                <div class="faq__accordion">
+                    <p class="faq__answer">
+                        You can eat various Shiroebi at <a href="https://tabelog.com/toyama/A1601/A160101/16000038/" target="_blank">this shop</a>.(Location: Toyama City)
+                    </p>
+                </div>
+                <input class="faq__checkbox" type="checkbox" id="faqCheckBox04">
+                <label class="faq__label" for="faqCheckBox04">
+                    Q.How do you eat Hotaruika?
+                    <i class="fas fa-angle-down fa-lg"></i>
+                    <i class="fas fa-angle-up fa-lg"></i>
+                </label>
+                <div class="faq__accordion">
+                    <p class="faq__answer">
+                        A.<br>
+                        ・ Boil and add vinegar miso<br>
+                        ・ Sashimi<br>
+                        ・ Okizuke<br>
+                        I think the most popular thing is to boil and eat.
+                    </p>
+                </div>
+                <input class="faq__checkbox" type="checkbox" id="faqCheckBox05">
+                <label class="faq__label" for="faqCheckBox05">
+                    Q.Where can I eat Hotaruika?
+                    <i class="fas fa-angle-down fa-lg"></i>
+                    <i class="fas fa-angle-up fa-lg"></i>
+                </label>
+                <div class="faq__accordion">
+                    <p class="faq__answer">
+                        A.<a href="https://tabelog.com/toyama/A1602/A160202/16000399/" target="_blank">This shop</a> is recommended. It is a store specializing in Hotaruika dishes.(Location: Namerikawa City)
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- フッター -->
+    <footer>
+        <p class="copy__right">© Daichi</p>
+    </footer>
+</body>
+</html>
